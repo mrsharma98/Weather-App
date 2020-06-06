@@ -1,0 +1,48 @@
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  /* flex is use to stick the footer at the top */
+  flex-direction: column;
+  /* default value is row , now by using column 
+      our footer will get stick to the extreme left side*/
+  min-height: 100vh;
+  /* vh:- view-port height */
+}
+
+.main-content {
+  flex-grow: 1;
+  /* this means the content of main can take up all the space on the screen */
+}
+/* this is also a part to stick the footer at the bottom */
+
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.portrait {
+  width: 200px;
+}
